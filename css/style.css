@@ -1239,13 +1239,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .about-section {
   margin-top: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
   display: inline-block;
 }
 
 .about-section-image {
-  margin-top: 110px;
+  margin-top: 50px;
+}
+
+.about-image {
+  width: 525px;
 }
 
 .footer-image {
