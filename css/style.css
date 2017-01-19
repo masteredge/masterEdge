@@ -965,6 +965,11 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translateX(-275px);
 }
 
+.offcanvas-visible-temp {
+  display: block !important;
+  z-index: 3 !important;
+}
+
 #fh5co-offcanvas {
   display: none;
   height: 100%;
@@ -977,11 +982,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: black;
   padding: 30px;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-offcanvas {
-    display: block;
-  }
-}
+
 #fh5co-offcanvas ul {
   padding: 0;
   margin: 0;
